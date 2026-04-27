@@ -1,4 +1,4 @@
-#include "include/configFile.hpp"
+#include "configFile.hpp"
 
 void tokenizeConfig(std::string & conf, Configtokens & tokens)
 {

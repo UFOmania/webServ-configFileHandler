@@ -1,4 +1,4 @@
-#include "include/configFile.hpp"
+#include "configFile.hpp"
 
 
 void detectServerStartEnd(Configtokens & t, std::vector <std::pair < int, int> > & servers)

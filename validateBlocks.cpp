@@ -1,4 +1,4 @@
-#include "include/configFile.hpp"
+#include "configFile.hpp"
 
 bool validateBlocks( std::string & conf)
 {

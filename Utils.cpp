@@ -1,4 +1,4 @@
-#include "include/configFile.hpp"
+#include "configFile.hpp"
 
 void putErr(std::string msg)
 {

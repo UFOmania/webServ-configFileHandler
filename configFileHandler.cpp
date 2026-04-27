@@ -1,4 +1,4 @@
-#include "include/configFile.hpp"
+#include "configFile.hpp"
 
 
 bool configFileHandler(const char * conf, std::vector<ServerConfig> & servers)

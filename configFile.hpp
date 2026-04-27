@@ -9,11 +9,11 @@
 #include <fstream>
 
 
-#include "../classes/ServerConfig.hpp"
-#include "../classes/ConfigFileTypes.hpp"
+#include "classes/ServerConfig.hpp"
+#include "classes/ConfigFileTypes.hpp"
 
 
-#include "../classes/ConfigException.hpp"
+#include "classes/ConfigException.hpp"
 
 #define RESET   "\033[0m"
 #define BOLD    "\033[1m"
@@ -24,7 +24,7 @@
 #define BLUE    "\033[34m"
 #define CYAN    "\033[36m"
 
-bool configFileHandler(const char * conf, std::vector<ServerConfig> & servers);
+
 
 void normalizeConfigFormat(std::string &conf);
 void validateShape(Configtokens &t);

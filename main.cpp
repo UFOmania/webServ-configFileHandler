@@ -1,4 +1,5 @@
-#include "include/configFile.hpp"
+#include "include/configFileHandler.hpp"
+#include <iostream>
 
 int main(int ac, char **av)
 {

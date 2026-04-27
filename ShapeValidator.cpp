@@ -1,4 +1,4 @@
-#include "include/configFile.hpp"
+#include "configFile.hpp"
 
 
 int detectType(Configtokens & t, size_t &idx)
